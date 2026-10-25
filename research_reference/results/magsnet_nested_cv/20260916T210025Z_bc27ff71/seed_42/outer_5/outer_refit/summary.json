@@ -1,0 +1,9 @@
+{
+  "signature": "3b693bef1019da0f4383eb2850cd2da63479151b3cca20686990ab12fa6dc360",
+  "seed": 42,
+  "epochs_completed": 23,
+  "best_epoch": 23,
+  "best_val_loss": null,
+  "checkpoint": "last.pt",
+  "checkpoint_hash": "531a42e85ebbc1f3c37551560e9245ed246b200107815b558ab54dc34aeccac2"
+}

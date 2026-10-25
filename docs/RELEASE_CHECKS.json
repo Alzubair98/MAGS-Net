@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-24",
+  "scope": "Local GitHub release package; no upload or hosting deployment",
+  "status": "passed",
+  "clean_notebooks": 6,
+  "training_and_new_test_inference_disabled_by_default": true,
+  "reference_artifacts_sha256_verified": 122,
+  "frozen_models_loaded_on_cpu": 5,
+  "parameters_per_model": 688270,
+  "outer_patient_folds": 5,
+  "inner_partitions_checked": 25,
+  "oof_slices": 3064,
+  "unique_oof_patients": 233,
+  "duplicate_oof_samples": 0,
+  "patient_leakage_detected": false,
+  "original_reference_loaders_verified": ["scratch classifiers", "pretrained classifiers", "MT-U-Net", "MAGS-Net ablations"],
+  "raw_cheng_pairs_reconstructed_and_pixel_hash_verified_without_writes": 3064,
+  "restore_reference_repeat_and_conflict_protection": "passed",
+  "synthetic_cpu_inference_and_exports": "passed",
+  "streamlit_upload_analyze_downloads_invalid_input_clear": "passed",
+  "inference_validation_environment": {"python": "3.10.18", "torch": "2.7.1+cu128, CPU inference selected", "streamlit": "1.64.0"},
+  "public_host_runtime_tested": false,
+  "models_retrained": false,
+  "license": "MIT",
+  "research_notice_update": {
+    "date": "2026-10-25",
+    "status": "passed",
+    "original_and_release_app_code_match": true,
+    "streamlit_notice_visible_before_upload": true,
+    "release_integrity_checks": "passed",
+    "inference_run_for_this_update": false,
+    "training_run_for_this_update": false
+  },
+  "notes": [
+    "Synthetic input checks software behavior, not scientific accuracy.",
+    "Original experiment functions are retained; release defaults disable automatic execution.",
+    "The AST fingerprint normalizes Python 3.12's empty type_params field while preserving the audited architecture hash.",
+    "The original dataset images and manuscript are not included.",
+    "MIT licensing was added at the author's request for original code, documentation and included MAGS-Net checkpoints; dataset-derived materials retain their providers' terms."
+  ]
+}

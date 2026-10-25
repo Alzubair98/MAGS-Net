@@ -1,0 +1,16 @@
+seed,outer_fold,label,class,patients,slices
+42,1,0,Meningioma,17,135
+42,1,1,Glioma,18,267
+42,1,2,Pituitary,12,172
+42,2,0,Meningioma,17,175
+42,2,1,Glioma,17,288
+42,2,2,Pituitary,13,209
+42,3,0,Meningioma,16,118
+42,3,1,Glioma,18,273
+42,3,2,Pituitary,13,216
+42,4,0,Meningioma,16,130
+42,4,1,Glioma,18,252
+42,4,2,Pituitary,12,170
+42,5,0,Meningioma,16,150
+42,5,1,Glioma,18,346
+42,5,2,Pituitary,12,163

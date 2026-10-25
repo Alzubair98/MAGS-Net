@@ -1,0 +1,2 @@
+,parameters,conv_linear_macs,weight_mib_fp32,device,batch_size,precision
+0,688270,787555072,2.6255416870117188,cuda,1,float32

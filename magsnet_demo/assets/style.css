@@ -1,0 +1,21 @@
+:root { --mags-ink: #183b49; --mags-teal: #147d72; }
+.stApp { background: #f6f8fa; color: var(--mags-ink); }
+.block-container { max-width: 1160px; padding-top: 4.6rem; padding-bottom: 2.8rem; }
+[data-testid="stSidebar"] { background: #edf3f5; border-right: 1px solid #dce5e9; }
+h1 { color: var(--mags-ink); font-weight: 750 !important; letter-spacing: -1.6px; padding-bottom: .3rem !important; }
+h2, h3, h4 { color: var(--mags-ink); }
+.research-badge { display: inline-block; padding: 6px 12px; border: 1px solid #b6d8d2;
+  border-radius: 5px; background: #e8f4f0; color: #14665d; font-size: 11px;
+  font-weight: 700; letter-spacing: 1.4px; }
+.subtitle { color: #506974; font-size: 18px; line-height: 1.6; }
+.hero-rule { margin: 1.4rem 0 1.7rem; height: 3px;
+  background: linear-gradient(90deg, #147d72 0%, #b6d8d2 48%, transparent 100%); }
+[data-testid="stMetric"] { background: #fff; border-color: #dce5e9; }
+[data-testid="stMetricValue"] { font-size: 1.75rem; color: #174d58; }
+[data-testid="stFileUploader"] { padding-top: .25rem; padding-bottom: .5rem; }
+[data-testid="stImage"] img { border-radius: 7px; }
+[data-testid="stSidebar"] [data-testid="stMetric"] { background: transparent; }
+@media (max-width: 700px) {
+  .block-container { padding: 4.5rem .9rem 1.2rem; }
+  .subtitle { font-size: 15px; }
+}

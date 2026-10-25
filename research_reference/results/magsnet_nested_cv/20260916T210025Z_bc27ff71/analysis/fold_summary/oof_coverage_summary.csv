@@ -1,0 +1,2 @@
+seed,total_unique_patients,total_unique_slices,planned_test_exactly_once,planned_test_more_than_once,planned_never_tested,oof_status,patients_tested_exactly_once,patients_tested_more_than_once,patients_never_tested,oof_slices,oof_unique_slices,missing_oof_slices,duplicate_sample_ids_in_oof,duplicate_patient_fold_assignments
+42,233,3064,233,0,0,complete,233,0,0,3064,3064,0,0,0

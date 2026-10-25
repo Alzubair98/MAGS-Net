@@ -1,0 +1,612 @@
+[
+  {
+    "file": "research_reference/results/magsnet_nested_cv/preparation/04ddbd02826f/sample_index.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/preparation/04ddbd02826f/sample_index.csv",
+    "sha256": "551f20e90770d0e59fd6e01d39ddaa1b81af8ad44b3004591a79b49522edf5f3"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/preparation/04ddbd02826f/outer_patients.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/preparation/04ddbd02826f/outer_patients.csv",
+    "sha256": "201d7029e53089ca26c7342109ef4cff8338678d014eacf21cf1f76bac48bde0"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/preparation/04ddbd02826f/inner_patients.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/preparation/04ddbd02826f/inner_patients.csv",
+    "sha256": "9a8e56c1b914de62198a487c08760ab6090323bbc6471423f51d1f5139e0d6bb"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/preparation/04ddbd02826f/protocol.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/preparation/04ddbd02826f/protocol.json",
+    "sha256": "89d9113ecdb1583beb1640f21cd55dd58a225ad8449cc4aef84e63324156ab4b"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/preparation/04ddbd02826f/dataset_summary.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/preparation/04ddbd02826f/dataset_summary.csv",
+    "sha256": "58fca5c286921e9b988f2961d014a6bef7bf4144c7480f6328b258f6cb19a1e4"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/preparation/04ddbd02826f/fold_distribution.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/preparation/04ddbd02826f/fold_distribution.csv",
+    "sha256": "0c222ee517b54019d86d994b827c7a43af52b856c7d5c64e2ac7931bc95d14c0"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/preparation/04ddbd02826f/complexity.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/preparation/04ddbd02826f/complexity.csv",
+    "sha256": "2172d2af64eba97d72e297b1f763790b290d27fb13d12fde45ef7d1d25f50a5f"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/experiment.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/experiment.json",
+    "sha256": "1dc698f7060f4f0898223a695f3ef54de5b204475914ff961be6d262b2c1fe16"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/training_complete.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/training_complete.json",
+    "sha256": "ab43f0aca4c2f7a46a2d6692ff1aa2d3e4df3ea69a3161c7ed3fd70c090263c3"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/evaluation.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/evaluation.json",
+    "sha256": "3a922d0d325d43425ccfb42de03a6e4f754c8130cc1df5ac0db53dc95f5402cf"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/selection.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/selection.json",
+    "sha256": "10b961a2bce6314f2d59e823d3a3ab369578d141c3ac5fa1d563920e4fee07f4"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/inner_results.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/inner_results.csv",
+    "sha256": "ff7184a72ba097277de3385c29bfb8a6d2c1ff7cb838175b9869b9155c85965a"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/outer_metrics.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/outer_metrics.json",
+    "sha256": "334b3c2cc1d84b4a38c054bc8f7543e8c4793997148b6e0d16d951c132c9bb86"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/outer_predictions.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/outer_predictions.csv",
+    "sha256": "6ba7960864517310c0519a0d89e688bbab157dc1a88e50f10dea3ce1b8cfd4d9"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/outer_refit/last.pt",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/outer_refit/last.pt",
+    "sha256": "a97a2b102f5f224b3205fe7f884e14a028fa905cb2d51e41413cae2897eb23a5"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/outer_refit/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/outer_refit/summary.json",
+    "sha256": "37ec5f4875f04c3825bf8e3e1c47a800ffdd0776291ee7838ffe40a2f7744f16"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/outer_refit/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/outer_refit/history.csv",
+    "sha256": "f9b6cae6fdae4ee5fed82dd8cfa11bd14083159182e2984950f217235a1dca72"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_1/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_1/summary.json",
+    "sha256": "987d6efbc2ed770b08af790e599e2d9d928c690e24c61d1300ea95fe4dad6844"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_1/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_1/history.csv",
+    "sha256": "f567242f08d582a7ebba7215cf876692355f4164e1f1420686f32ca18b73bbfe"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_2/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_2/summary.json",
+    "sha256": "c73c93744fc818ceb7d8493f4edb72ab2d55b72361a7cb54806887f52923e5b6"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_2/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_2/history.csv",
+    "sha256": "925b900f0eaf0cf468640ce348aad44ab6ec055c9d7beb3243aa170670b4db66"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_3/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_3/summary.json",
+    "sha256": "9e8372cb79b7a60d8d3b8525a88dd72d1dd5098aaf21130dd74874967d7d4e1b"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_3/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_3/history.csv",
+    "sha256": "593b1b4395fe8fdce49abf639b3621f197eb30fb1b9e2a14c491f7cb3d624c58"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_4/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_4/summary.json",
+    "sha256": "6f7c34981a961b740b46603dc6b3fb70de4a05623c72ccf56025fc9a25a8ebfe"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_4/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_4/history.csv",
+    "sha256": "63a17b060ca246351514c6655e03a7722dde55b3ee35c0c18e4317a2dd6f46a6"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_5/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_5/summary.json",
+    "sha256": "8d512a929d59794b1cb42c9ab51dff426f14474c1c225f8700655bbca0d32095"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_5/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_1/candidate_0/inner_5/history.csv",
+    "sha256": "6c869ec03ab273528c1870fb392ef6846758750817437d3e252ae054881e8313"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/evaluation.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/evaluation.json",
+    "sha256": "2201a2a93c270eb8b3a1ba5f16eb3685f09cb92d7a3ca30ee23073571cdbd07a"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/selection.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/selection.json",
+    "sha256": "221621c3bf7fa66e9a7b31af233d9a82ac15824a69fe71b66ac775483a46b8bf"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/inner_results.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/inner_results.csv",
+    "sha256": "cf7143d8cc16c18248f1fa6dd4545ddd2c596960c80878ba663cd71452483d10"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/outer_metrics.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/outer_metrics.json",
+    "sha256": "d3c05cf81bfe6542f23d85f27aeacde3ba63ea320646f2aabb1b425d7ec45a0e"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/outer_predictions.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/outer_predictions.csv",
+    "sha256": "435a12dd4ded13fb9ad1187d30314134b3c1840b9732f04ce72275944cdc3761"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/outer_refit/last.pt",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/outer_refit/last.pt",
+    "sha256": "42148b007017047b4443ab3728fa409178001611560701b6cfe5d34ea6d0b6a9"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/outer_refit/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/outer_refit/summary.json",
+    "sha256": "828ae34ad876956ae3ed805e6a7696b29b8318943fd497bd1ccc41c2e00037fa"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/outer_refit/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/outer_refit/history.csv",
+    "sha256": "f27c5f2640c2ab18c3f0444acb628116b785b4e95da50734d99a3829bd835281"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_1/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_1/summary.json",
+    "sha256": "fa88fb80a0c3357a617c156509f83003cd4991e872311afa2eb2f86fc9147600"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_1/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_1/history.csv",
+    "sha256": "cfdb8dc0afbcbf6e53c2e7ee9c7c14a5987fd99879b3180aca57396aff72bd80"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_2/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_2/summary.json",
+    "sha256": "0aac37927a05b4371930232c15046dc8e6fbf1cc4023dc0c886d512fb0655763"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_2/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_2/history.csv",
+    "sha256": "7810288ec26ed7781386bd086a08f8574840a4622064a712382b547d5c25a16c"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_3/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_3/summary.json",
+    "sha256": "46152f0b9fb727e3eda03b61d25a92b3dae102e12223f1df5988e82928b27632"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_3/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_3/history.csv",
+    "sha256": "fce1638f05194160185b9afe899ce118cce6ebf9bd28b0acfc863cff71d153f8"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_4/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_4/summary.json",
+    "sha256": "06cc36326a7d4c7f1c330b3048cacb5957683785226561171157428318e4cf48"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_4/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_4/history.csv",
+    "sha256": "c92eeccdd458479f92780eca61f1337d2f1fa4c1ea80f1f6be9c784141205a5f"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_5/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_5/summary.json",
+    "sha256": "99b40a510f83f57629e15ebb886b15e74e94eebc4c4ac7c082d3a8c3e5e2bf3f"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_5/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_2/candidate_0/inner_5/history.csv",
+    "sha256": "caf5dde2a2a37d0bcafcc4b56fee437c67b44a3bc0a552e051da6bb610fc0186"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/evaluation.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/evaluation.json",
+    "sha256": "e1336073a73e2c7c1a62ef858eb8d2ceafe9551215bdd797bb7e6f6b066539f8"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/selection.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/selection.json",
+    "sha256": "4de58aeb67ed6a696f2cc91262d4350a09dcfa55ede4acd86ac4708df9a03e8b"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/inner_results.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/inner_results.csv",
+    "sha256": "1ddba4918cbb78c609d883bac5d652258adea6dc94da2973d051a22e7f419126"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/outer_metrics.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/outer_metrics.json",
+    "sha256": "a1b99f1ad5f5223d7849fd192afcf02394f7833a46abdf6a0cfc672bcd5bbcf9"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/outer_predictions.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/outer_predictions.csv",
+    "sha256": "f21754d14f2bc7a14ac875f08db71b9d1be42c7871f4eadaef4af000b1c11786"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/outer_refit/last.pt",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/outer_refit/last.pt",
+    "sha256": "20a387b32a07257303274a2beac2327bd500191859ef15523014f2f7e89c78eb"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/outer_refit/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/outer_refit/summary.json",
+    "sha256": "ae750e32b98310ed0574bbd1a1d3f83988b0ae4ea160b651b86f2780e7fe0fa7"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/outer_refit/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/outer_refit/history.csv",
+    "sha256": "53ad75aac6a9cc021920ef38b05dc9f7a73d68b83f3f46a9382787821a2a8c07"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_1/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_1/summary.json",
+    "sha256": "94f3137e6219b30f16bae74434db0e0af154e4bb4b9396394c7472f95a0c4309"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_1/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_1/history.csv",
+    "sha256": "b9227346babb91c9560857e13993f6657ec3806f6ce4da0b626a65a727b5e0d9"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_2/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_2/summary.json",
+    "sha256": "31329845b4e1efc9155f6767c761f39dee282e3d11a4763a654baeb2d6a43049"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_2/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_2/history.csv",
+    "sha256": "ebe9e09ced03284bdb53cf8558d324eebe5d4ece549f8edc29e1227372c86c9c"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_3/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_3/summary.json",
+    "sha256": "a8845681fe1c01197ade0fb2974b75e413d1833e7dca5b18db0cc8695b14b483"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_3/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_3/history.csv",
+    "sha256": "242ab0b9dd23cc6f93564760c446ea655f6a97fce3e0ece4eb36be2cd43f54cb"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_4/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_4/summary.json",
+    "sha256": "65ebf8636be39370f11851043cc1e4e24f0dc11719de2f2891cb183d39239814"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_4/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_4/history.csv",
+    "sha256": "4d7eef3bb02b5488dc2a5583dd96b2c7036572574817d9f223ad7e37cf480e5f"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_5/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_5/summary.json",
+    "sha256": "3d8e8d105538c609074c5d26929792fdb21486f3da47f2461e66b11bfc94fdf0"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_5/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_3/candidate_0/inner_5/history.csv",
+    "sha256": "0d02358274fa4a76bdb9684cf9afb21b61e0e2944eb2669f18e864ccb8fe7060"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/evaluation.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/evaluation.json",
+    "sha256": "290a8b0b435ad91a889ef0aea0645f6ef7d706fd0f5b32342af707082a16df65"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/selection.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/selection.json",
+    "sha256": "f3cde3d2ad30f1209c58c7b0b957ec984f0a506eb5ee730d362f3660d1b535ba"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/inner_results.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/inner_results.csv",
+    "sha256": "4c6601a9c3455513b60b33d935a759a6e439fddcce52bd894c5ffacdbcd2f41f"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/outer_metrics.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/outer_metrics.json",
+    "sha256": "267b4411933b64ffc3c643cbc4bb7059a51445d9a06deae1f949ae5b956b9dcd"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/outer_predictions.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/outer_predictions.csv",
+    "sha256": "8fc0809b6c5d0702bd08a2a1ec5654a42acf9247ba684a2a2d47604fe03344dd"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/outer_refit/last.pt",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/outer_refit/last.pt",
+    "sha256": "aac732c4c295d2dc8e479516fd0e56629b9b719ecdc5a9b5a15f1ebbce610586"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/outer_refit/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/outer_refit/summary.json",
+    "sha256": "d44a43d854e2cc67475d94f8972ff6984b81eb6234bca405a6544c70db09922f"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/outer_refit/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/outer_refit/history.csv",
+    "sha256": "87ec744956773374efddc81b39ce5091bcc5db39b2b20a65f95ea7d3c077bab8"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_1/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_1/summary.json",
+    "sha256": "67322e6fd10071c25888519111973c957cb4f41bc4293f8e3f4b404931b0351f"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_1/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_1/history.csv",
+    "sha256": "65f3f1b0fa22234afc8837489dd9ae7eb5ee7c52fa0487e79a746daebd452834"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_2/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_2/summary.json",
+    "sha256": "0fdafa9513c7868c01db251bd39d209ee6da130891961e6c8b9819622ca11b2c"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_2/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_2/history.csv",
+    "sha256": "cd4158d0ce5fc35982da4be3da2f43c17f0dd31a6b0e3bbd3c5869c33eef5ee6"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_3/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_3/summary.json",
+    "sha256": "feda359d6803d37251f3718b5732f8070b2e157cfb7a6d1e1fc5bd998401eb2c"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_3/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_3/history.csv",
+    "sha256": "66a4e1faddd058090f4815b2525267bcbba16b8a205df7d00598a3b774c2dc97"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_4/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_4/summary.json",
+    "sha256": "f26e4398b44e73d1b57cebac9008fde56d411f9c6f92c8c6ebe3ed2283196ccb"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_4/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_4/history.csv",
+    "sha256": "e3d67df3862954db37c6ffad2260f301f9f2390bd4cfa8f085930c434966132d"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_5/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_5/summary.json",
+    "sha256": "ba59cbf16d6ec49fa34abcd11cc722ebafe0511ed510fe2430d2e554c5484761"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_5/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_4/candidate_0/inner_5/history.csv",
+    "sha256": "59c1a717d105ac0aa17dfc14078b71331244e70a4d32f19f7c1ed552b94383e9"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/evaluation.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/evaluation.json",
+    "sha256": "e5eaec3d3eb982cff6e929149ce80326428959856b98deca4c0580357b86a370"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/selection.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/selection.json",
+    "sha256": "8e090e2c0f376c9f9e25d5839aa93ab8f2cb24b641e2e258d50f6ceae470d650"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/inner_results.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/inner_results.csv",
+    "sha256": "2cd379f1c2ae55f56ddbd86e932f6fb14e2cfc1b6e9526cf05bccfa11ca6cd8c"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/outer_metrics.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/outer_metrics.json",
+    "sha256": "75cb838cb6ed3f6a3c3d2386910dc3bfaca6c4ba18eb0b986fa299d772d71383"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/outer_predictions.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/outer_predictions.csv",
+    "sha256": "db0818dcdc47c6733950b898bc0b39ff3487943dc8793873a8741a9c592fa605"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/outer_refit/last.pt",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/outer_refit/last.pt",
+    "sha256": "531a42e85ebbc1f3c37551560e9245ed246b200107815b558ab54dc34aeccac2"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/outer_refit/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/outer_refit/summary.json",
+    "sha256": "2ce098d17fbe606366b50fcd53102c4a0135d8b35ab139ee2d53c56ec7329fe6"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/outer_refit/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/outer_refit/history.csv",
+    "sha256": "94247af0c056441f8c261f84c08ca49c3f863d998d59a205f6db6b7372b9ad03"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_1/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_1/summary.json",
+    "sha256": "f6f4981154ea3c7a0191d4172f6be44317b9641c5bf5e954c8df66de28a91909"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_1/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_1/history.csv",
+    "sha256": "8878f23a47ff1419ddedfacfb47f958d35b06a35bbf8036ae673371000553a22"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_2/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_2/summary.json",
+    "sha256": "57537efb5ec1780336759a8b20f7aac391d4ce9b082d08c3b6ef58b2085cab0a"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_2/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_2/history.csv",
+    "sha256": "07bfcaf2eed1b2fbdac4a98318d09e90e6622c54a444adfe861d6f50ff5c6f13"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_3/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_3/summary.json",
+    "sha256": "fc080be5c78b8c2edba1a472b0f5bd0d3fdfd421ec4e0a9ed8e61394cafc5242"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_3/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_3/history.csv",
+    "sha256": "0793de8fb1675ea359dc8ef79e20446c92971eadc4d6422c21ae16bfc5ba57ce"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_4/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_4/summary.json",
+    "sha256": "afabae0bf4731373b2285fc84e82415dc2b170444510a1c75c5640fe795aeb80"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_4/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_4/history.csv",
+    "sha256": "31c70d0bd7739f3eacbff4fb3ac8360dfbac75a607c447106142c8ada76710cc"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_5/summary.json",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_5/summary.json",
+    "sha256": "063788c2b2aba80d3b2f278d5d9ee8603af28ee65ba4e0d6f53d42dbb223056a"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_5/history.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/seed_42/outer_5/candidate_0/inner_5/history.csv",
+    "sha256": "408a1f4e0c3a573088e3313e373ef73c86665a992dedda38bceeabe18c25d922"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/complexity.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/complexity.csv",
+    "sha256": "2172d2af64eba97d72e297b1f763790b290d27fb13d12fde45ef7d1d25f50a5f"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/confidence_intervals.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/confidence_intervals.csv",
+    "sha256": "7e279ffa4265c132e6ccee9fb1b4b0645203498318298b9fa615c7b6fbe20dc3"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/dataset_summary.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/dataset_summary.csv",
+    "sha256": "58fca5c286921e9b988f2961d014a6bef7bf4144c7480f6328b258f6cb19a1e4"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/fold_distribution.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/fold_distribution.csv",
+    "sha256": "4ec4061d517da819f35e355b766acdbe6626ef5fd8fedf732a36ef4c97830671"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/gates_by_class.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/gates_by_class.csv",
+    "sha256": "d1139f2a4adcc7b7d5b5902f54255e5f3826a9199bece2d5412683c7786c011d"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/gate_correlations.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/gate_correlations.csv",
+    "sha256": "9ab31b9f5eb8996283a00e0dfd61414e262716e39a7db3cd6e7d571326f8b3f7"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/oof_patients.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/oof_patients.csv",
+    "sha256": "5aa154690dafe00873e84b66822e20e8f64882e67fc34b2c9376fd1739fc55ed"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/oof_slices.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/oof_slices.csv",
+    "sha256": "2b6f089f235c0d664b7a0b3b0a386302b024236a23ca2096e179a90576e3cdcd"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/outer_fold_metrics.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/outer_fold_metrics.csv",
+    "sha256": "183faca84abb2339d6aee1c7474ebc233f47635a495fe71898ce2a80d539faa7"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/patient_classification.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/patient_classification.csv",
+    "sha256": "cf6ad3e1daa3ae3a17474fa3401b7d6652ef8f29acdadbb2e3c58e025499aeb4"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/patient_metrics.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/patient_metrics.csv",
+    "sha256": "e5eaa3791f9e96497fcbad53c12961101c24a6fd7c83209470ed9253cbedbbc3"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/poor_vs_excellent_size.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/poor_vs_excellent_size.csv",
+    "sha256": "a1bd3ed9cc912a99f9d05d4084de0febeba5aa2adcee36539e7af02cef7b7d78"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/quality_by_class.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/quality_by_class.csv",
+    "sha256": "37f8c4ceab49df5f33ae973d955b3fafd546666d224d27586b30edf205e5fb8d"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/segmentation_by_class.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/segmentation_by_class.csv",
+    "sha256": "2f52bb3614d7788e0a0446fb3aac922f5e61169357558243dbbe8b613e4fb968"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/size_dice_spearman.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/size_dice_spearman.csv",
+    "sha256": "f3b60d43d38cf3957eb580b19973b8a404e8703d5af0d1e2edf34c60cd86cd25"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/slice_classification.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/slice_classification.csv",
+    "sha256": "6935e2f7d2bd3917d23f6b9446bcc8c2d1a1abfd537e4bfd91b26a3c55702a0e"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/slice_metrics.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/slice_metrics.csv",
+    "sha256": "a39b0e59fadfab0b754a674c380f3795c1b0cb8eaeeb6ca17c050e55826f3b12"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/stage_gate_summary.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/stage_gate_summary.csv",
+    "sha256": "8fc9eb1c8fd5567d40a0a2ef8def62cf4dcfd69868c2d2684082426af7edf137"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/tumor_size_by_quality.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/tumor_size_by_quality.csv",
+    "sha256": "8b8b0b30f198524be0d4b021cdb16a7d37cad1e06a6c01110ed312a9c5a99f9c"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/fold_summary/fold_summary.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/fold_summary/fold_summary.csv",
+    "sha256": "f98c2be903398439d97b5c5fb16b31da40985f19ab454d3853611ef90da6561e"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/fold_summary/inner_fold_summary.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/fold_summary/inner_fold_summary.csv",
+    "sha256": "4708a1d9c3155b33527d0b44d62ff384074144cc5d0da7bf7198426cd5a01253"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/fold_summary/oof_coverage_summary.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/fold_summary/oof_coverage_summary.csv",
+    "sha256": "f7eb43f0699c01f265703b2ef70e60d9e2a09f5453fbef1122dbf0b9f8d92446"
+  },
+  {
+    "file": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/fold_summary/outer_test_class_distribution.csv",
+    "source": "ZubNet-B/results/magsnet_nested_cv/20260916T210025Z_bc27ff71/analysis/fold_summary/outer_test_class_distribution.csv",
+    "sha256": "ef59054beec82b128377065f5a1b5560f36c1d5838f998ad9dc2820971a21fec"
+  }
+]

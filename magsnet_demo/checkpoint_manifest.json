@@ -1,0 +1,57 @@
+{
+  "study_dir": "research_reference/results/magsnet_nested_cv/20260916T210025Z_bc27ff71",
+  "experiment_hash": "04ddbd02826f9126a101f0240c3f6fb9a1dd80e3a9479b7a11fa85dcc317057d",
+  "seed": 42,
+  "classes": {
+    "0": "Meningioma",
+    "1": "Glioma",
+    "2": "Pituitary"
+  },
+  "image_size": 224,
+  "segmentation_threshold": 0.5,
+  "crop_padding": 5,
+  "parameters_per_model": 688270,
+  "conv_linear_macs_per_model": 787555072,
+  "fp32_weights_mib_per_model": 2.6255416870117188,
+  "model_source": "publication/magsnet_nested_cv.py",
+  "model_definition_sha256": "b60e20e86461273fc1014b26ccc9be1c44a8a1edfbaf097d47d930da0de60820",
+  "preprocessing_source": "publication/brisc_external_validation.py",
+  "preprocessing_uses_ground_truth": false,
+  "checkpoints": [
+    {
+      "outer_fold": 1,
+      "relative_path": "seed_42/outer_1/outer_refit/last.pt",
+      "sha256": "a97a2b102f5f224b3205fe7f884e14a028fa905cb2d51e41413cae2897eb23a5",
+      "signature": "8b20683272debbcebfe656dd8aa9fca6389a97bbde2bbf62d9310da22582179a",
+      "epochs": 35
+    },
+    {
+      "outer_fold": 2,
+      "relative_path": "seed_42/outer_2/outer_refit/last.pt",
+      "sha256": "42148b007017047b4443ab3728fa409178001611560701b6cfe5d34ea6d0b6a9",
+      "signature": "721cb104c27a616391465f0b147cfaa49ae2ce7c9e4f09c7cd862a6fc0cb381a",
+      "epochs": 37
+    },
+    {
+      "outer_fold": 3,
+      "relative_path": "seed_42/outer_3/outer_refit/last.pt",
+      "sha256": "20a387b32a07257303274a2beac2327bd500191859ef15523014f2f7e89c78eb",
+      "signature": "3f991c2aa300e20ce0e8a85eb29d7540584f735948a4daf7d0909d8ff3567627",
+      "epochs": 34
+    },
+    {
+      "outer_fold": 4,
+      "relative_path": "seed_42/outer_4/outer_refit/last.pt",
+      "sha256": "aac732c4c295d2dc8e479516fd0e56629b9b719ecdc5a9b5a15f1ebbce610586",
+      "signature": "4da1ed8772a137eb9710451bc8c546ef2d2958e1e989a2408cee5c89f5671541",
+      "epochs": 35
+    },
+    {
+      "outer_fold": 5,
+      "relative_path": "seed_42/outer_5/outer_refit/last.pt",
+      "sha256": "531a42e85ebbc1f3c37551560e9245ed246b200107815b558ab54dc34aeccac2",
+      "signature": "3b693bef1019da0f4383eb2850cd2da63479151b3cca20686990ab12fa6dc360",
+      "epochs": 23
+    }
+  ]
+}

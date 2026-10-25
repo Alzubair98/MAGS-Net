@@ -1,0 +1,6 @@
+seed,outer_fold,development_patients,outer_test_patients,development_slices,outer_test_slices,patient_overlap,selected_candidate_id,inner_best_epochs,median_inner_best_epoch,selected_training_epoch,final_outer_training_epochs,epoch_selection_rule
+42,1,186,47,2490,574,0,0,"[36, 22, 48, 35, 21]",35,35,35,Median of the selected candidate's five inner best-validation-loss epochs
+42,2,186,47,2392,672,0,0,"[37, 31, 37, 39, 22]",37,37,37,Median of the selected candidate's five inner best-validation-loss epochs
+42,3,186,47,2457,607,0,0,"[43, 43, 32, 15, 34]",34,34,34,Median of the selected candidate's five inner best-validation-loss epochs
+42,4,187,46,2512,552,0,0,"[37, 34, 35, 34, 43]",35,35,35,Median of the selected candidate's five inner best-validation-loss epochs
+42,5,187,46,2405,659,0,0,"[23, 20, 26, 35, 18]",23,23,23,Median of the selected candidate's five inner best-validation-loss epochs

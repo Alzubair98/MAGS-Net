@@ -1,0 +1,13 @@
+,seed,class,quality,slices
+0,42,Glioma,Excellent,585
+1,42,Glioma,Failed,110
+2,42,Glioma,Moderate,459
+3,42,Glioma,Poor,272
+4,42,Meningioma,Excellent,637
+5,42,Meningioma,Failed,6
+6,42,Meningioma,Moderate,44
+7,42,Meningioma,Poor,21
+8,42,Pituitary,Excellent,737
+9,42,Pituitary,Failed,6
+10,42,Pituitary,Moderate,135
+11,42,Pituitary,Poor,52

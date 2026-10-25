@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite it and the original datasets. The manuscript is in preparation."
+type: software
+license: MIT
+title: "MAGS-Net: A Lightweight Adaptive Multi-Scale Gated Network for Joint Brain Tumor Classification and Segmentation in Contrast-Enhanced MRI"
+authors:
+  - family-names: Algaraghuli
+    given-names: Alzubair
+    affiliation: "Computer Engineering, Erciyes University, Kayseri, Turkey"
+  - family-names: Ozturk
+    given-names: Serkan
+    affiliation: "Computer Engineering, Erciyes University, Kayseri, Turkey"
+repository-code: "https://github.com/Alzubair98/MAGS-Net"
+keywords:
+  - brain tumor
+  - MRI
+  - multi-task learning
+  - segmentation
+  - classification
+  - adaptive gating

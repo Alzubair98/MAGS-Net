@@ -1,0 +1,13 @@
+{
+  "candidate_id": 0,
+  "candidate": {
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "lambda_seg": 0.5,
+    "lambda_aux": 0.2
+  },
+  "epochs": 37,
+  "mean_inner_val_loss": 0.5061415980261551,
+  "seed": 42,
+  "outer_fold": 2
+}
