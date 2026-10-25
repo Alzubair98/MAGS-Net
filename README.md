@@ -5,8 +5,21 @@
 Alzubair Algaraghuli and Serkan Ozturk, Computer Engineering, Erciyes University.
 
 Research implementation, reproducibility notebooks, saved MAGS-Net reference artifacts,
-and a local Streamlit demonstration. The manuscript is in preparation; this repository
-does not claim journal acceptance, clinical validation, or a live hosted service.
+and a Streamlit demonstration. The manuscript is in preparation; this repository
+does not claim journal acceptance or clinical validation.
+
+## Live demo
+
+**[Open the MAGS-Net live demo](https://mags-net-demo.streamlit.app/)**
+
+Try the application in your browser on Streamlit Community Cloud. Upload a
+de-identified contrast-enhanced T1-weighted brain MRI image and click **Analyze MRI**
+to view tumor-class probabilities, a predicted segmentation mask, and an overlay.
+
+**Research use only — under development.** The app does not verify that an upload
+is a brain MRI or determine whether a tumor is present. Tumor-free and unrelated
+images may produce misleading predictions, even with high model probabilities.
+It is not intended for clinical diagnosis or treatment decisions.
 
 ## Model and evaluation
 
@@ -20,7 +33,7 @@ order is **0: Meningioma, 1: Glioma, 2: Pituitary**. There is no tumor-free clas
 - Inner selection: minimum validation total multitask loss; median best inner epoch
   determines the duration of a fresh outer-development refit.
 - Each original OOF patient is evaluated only with its held-out outer model.
-- The local demo instead averages the five frozen models' probabilities. This is
+- The demo instead averages the five frozen models' probabilities. This is
   a demonstration ensemble, not the OOF evaluation procedure.
 
 BRISC is reported as a cross-dataset assessment with source-overlap concerns. Its
@@ -28,15 +41,16 @@ results do not establish independent external patient-level validation.
 
 ## Run the local demo
 
-Use Python 3.10 or 3.11 in a clean environment. An example CPU installation is:
+Use Python 3.11 in a clean environment. The root requirements.txt targets the
+Linux/Python 3.11 hosted deployment; for a local CPU installation, use:
 
 ```bash
 python -m venv .venv
 # Windows: .venv\Scripts\activate
 # Linux/macOS: source .venv/bin/activate
 python -m pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cpu
-python -m pip install -r requirements.txt
-python -m streamlit run magsnet_demo/app.py
+python -m pip install streamlit==1.64.0 numpy==2.2.6 pillow==11.1.0 opencv-python-headless==4.12.0.88
+python -m streamlit run magsnet_demo/app.py --server.address 127.0.0.1
 ```
 
 Run from the repository root and open the localhost URL printed by Streamlit.
@@ -118,5 +132,7 @@ The notice appears before upload and remains visible with results; JSON summarie
 also record these limitations. The notice does not automatically reject unsupported
 images. Softmax probabilities are not clinical confidence. Cropping can remove
 lesion tissue, and acquisition quality is not verified.
-Local uploads and generated downloads stay in session memory; no history
-or external inference call is implemented. Public hosting is not configured.
+The application processes uploads and creates downloads in session memory; it
+does not implement an uploaded-image history or call an external inference API.
+In the hosted demo, processing takes place on the Streamlit server. Running the
+local demo keeps inference on your own machine.

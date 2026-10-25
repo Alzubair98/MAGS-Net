@@ -1,4 +1,6 @@
-# Local MAGS-Net demonstration
+# MAGS-Net demonstration
+
+**[Open the live demo](https://mags-net-demo.streamlit.app/)** on Streamlit Community Cloud.
 
 **Research use only — under development.** This app must not be used for clinical
 diagnosis or treatment decisions. It cannot verify that an upload is a brain MRI
@@ -7,14 +9,17 @@ may receive a tumor label and a predicted mask, even with a high model probabili
 These limitations appear before upload, remain visible with results, and are
 included in JSON summaries. The notice does not automatically reject such images.
 
-From the repository root, install the demo requirements and run:
+To run locally, follow the installation commands in the [repository README](../README.md),
+then run from the repository root:
 
 ```bash
-python -m streamlit run magsnet_demo/app.py
+python -m streamlit run magsnet_demo/app.py --server.address 127.0.0.1
 ```
 
-The root .streamlit/config.toml binds the application to 127.0.0.1, limits uploads
-to 10 MiB, disables telemetry and hides detailed exceptions. The app is local only.
+The root .streamlit/config.toml supports hosted access, limits uploads to 10 MiB,
+and hides detailed exceptions. The command above restricts local access to 127.0.0.1.
+The hosted demo processes uploads on the Streamlit server; local inference runs
+on your own machine.
 On Windows, run the root run_demo.ps1 with PowerShell if you prefer a launcher.
 
 Upload an original 8-bit PNG/JPEG MRI export, not an already processed model crop.
