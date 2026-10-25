@@ -46,14 +46,14 @@ for the demo. See [local demo details](magsnet_demo/README.md).
 
 ## Research notebooks
 
-| Notebook | Purpose |
-|---|---|
-| [MAGS-Net](MAGSNet-Nested-5x5-CV.ipynb) | Complete joint model, nested CV, OOF analysis and figures |
-| [Scratch classifiers](02_Baseline_Classification_NestedCV.ipynb) | ResNet-50, DenseNet-121, EfficientNet-B0, MobileNetV3-Large and RegNet-Y-400MF |
-| [MT-U-Net](03_Lightweight_MT_UNet_NestedCV.ipynb) | Task-matched classification/segmentation baseline and paired statistics |
-| [Ablations](04_MAGSNet_Ablation_NestedCV.ipynb) | Full, fixed 50/50, 3x3, 5x5, and no lesion guidance |
-| [Pretrained classifiers](05_Pretrained_Classification_NestedCV.ipynb) | Three ImageNet-initialized classifiers using the same folds |
-| [BRISC assessment](06_BRISC2025_External_Validation.ipynb) | Frozen ensemble inference, provenance and crop-retention analyses |
+| Notebook                                                              | Purpose                                                                        |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| [MAGS-Net](MAGSNet-Nested-5x5-CV.ipynb)                               | Complete joint model, nested CV, OOF analysis and figures                      |
+| [Scratch classifiers](02_Baseline_Classification_NestedCV.ipynb)      | ResNet-50, DenseNet-121, EfficientNet-B0, MobileNetV3-Large and RegNet-Y-400MF |
+| [MT-U-Net](03_Lightweight_MT_UNet_NestedCV.ipynb)                     | Task-matched classification/segmentation baseline and paired statistics        |
+| [Ablations](04_MAGSNet_Ablation_NestedCV.ipynb)                       | Full, fixed 50/50, 3x3, 5x5, and no lesion guidance                            |
+| [Pretrained classifiers](05_Pretrained_Classification_NestedCV.ipynb) | Three ImageNet-initialized classifiers using the same folds                    |
+| [BRISC assessment](06_BRISC2025_External_Validation.ipynb)            | Frozen ensemble inference, provenance and crop-retention analyses              |
 
 All notebook outputs are cleared and training/new test-inference switches are off.
 Readable percent-format sources and notebook builders are in [publication](publication).
@@ -120,5 +120,3 @@ images. Softmax probabilities are not clinical confidence. Cropping can remove
 lesion tissue, and acquisition quality is not verified.
 Local uploads and generated downloads stay in session memory; no history
 or external inference call is implemented. Public hosting is not configured.
-
-For the repository owner: [Arabic upload guide](docs/GITHUB_UPLOAD_AR.md).
